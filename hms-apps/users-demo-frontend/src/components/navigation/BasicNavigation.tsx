@@ -44,7 +44,7 @@ const BasicNavigation: React.FC = () => {
                                 <ListItem
                                     key="List Users"
                                     title="List Users"
-                                    href="/view-users"
+                                    href="/v1/view-users"
                                 >
                                     List of users that are available in the users microservice
                                 </ListItem>

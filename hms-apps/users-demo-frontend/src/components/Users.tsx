@@ -26,7 +26,7 @@ const Users: React.FC<Props> = () => {
 
   //let's follow the react query approach
   const fetchUsers = async () => {
-    const res = await fetch("/users");
+    const res = await fetch("/users/users");
     return await res.json();
   }
   const { isPending, error, data } = useQuery({
