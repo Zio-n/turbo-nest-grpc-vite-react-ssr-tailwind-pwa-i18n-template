@@ -12,7 +12,7 @@
     "hms:copy:proto": "turbo run hms:copy:proto",
     "start": "node apps/demo-backend/dist/demo-backend/src/main",
     "hms:start:identity": "node hms-apps/identity/dist/main",
-    "hms:start:api-gateway": "node hms-apps/api-gateway/dist/src/main",
+    "hms:start:api-gateway": "node hms-apps/api-gateway/dist/api-gateway/src/main",
     "update:hms:lib:not-in-use": "copyfiles -u 1 hms-apps/google/**/* hms-apps/proto/**/*.ts packages/hms-lib/src/types && npm install",
     "hms:lib:update": "turbo run hms:lib:update",
     "hms:start:all": "pm2 start hms-apps/identity/dist/main.js -i 4 --name identity && pm2 start hms-apps/api-gateway/dist/src/main.js -i 4 --name api-gateway",
