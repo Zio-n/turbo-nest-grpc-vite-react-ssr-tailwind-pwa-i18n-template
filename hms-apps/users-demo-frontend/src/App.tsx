@@ -5,7 +5,7 @@ import Layout from "./components/Layout"
 import Home from "./components/Home";
 import Users from "./components/Users";
 
-import { ThemeProvider } from "./@/components/theme-provider"
+import { ThemeProvider } from "@/components/theme-provider"
 import {
   QueryClient,
   QueryClientProvider,

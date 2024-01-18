@@ -1,4 +1,4 @@
-import { H1 } from "../@/components/ui/typography";
+import { H1 } from "@/components/ui/typography";
 
 type Props = {
     title?: string

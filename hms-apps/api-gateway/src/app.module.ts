@@ -13,7 +13,7 @@ import { join } from 'path';
 @Module({
   imports: [EmployeesModule, PatientsModule, ClinicsModule, PharmaciesModule, AuthModule, UsersModule, 
     ServeStaticModule.forRoot({
-    rootPath: join(__dirname, '../../..', 'users-demo-frontend','dist'),
+    rootPath: join(__dirname, '../../..', 'users-demo-frontend', 'dist'),
   }),],
   controllers: [AppController],
   providers: [AppService],

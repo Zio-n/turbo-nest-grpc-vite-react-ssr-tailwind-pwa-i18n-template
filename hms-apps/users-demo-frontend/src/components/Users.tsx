@@ -1,4 +1,4 @@
-import { H1 } from "../@/components/ui/typography";
+import { H1 } from "@/components/ui/typography";
 import { useQuery } from "@tanstack/react-query";
 //import { useEffect, useState } from "react";
 import {User} from '@common/hms-lib';
