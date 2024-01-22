@@ -12,7 +12,7 @@
     "hms:copy:proto": "turbo run hms:copy:proto",
     "start": "node apps/demo-backend/dist/demo-backend/src/main",
     "hms:start:identity": "node hms-apps/identity/dist/main",
-    "hms:start:api-gateway": "node hms-apps/api-gateway/dist/api-gateway/src/main",
+    "hms:start:api-gateway": "node hms-apps/api-gateway/dist/src/main",
     "update:hms:lib:not-in-use": "copyfiles -u 1 hms-apps/google/**/* hms-apps/proto/**/*.ts packages/hms-lib/src/types && npm install",
     "hms:lib:update": "turbo run hms:lib:update",
     "hms:start:all": "pm2 start hms-apps/identity/dist/main.js -i 4 --name identity && pm2 start hms-apps/api-gateway/dist/src/main.js -i 4 --name api-gateway",
@@ -38,6 +38,7 @@
     "@grpc/proto-loader": "^0.7.10",
     "@loadable/component": "^5.15.3",
     "@nestjs/microservices": "^10.2.10",
+    "@nestjs/typeorm": "^10.0.1",
     "@tanstack/react-query": "^5.17.9",
     "accept-language-parser": "^1.5.0",
     "cp": "^0.2.0",
@@ -47,9 +48,12 @@
     "i18next-fs-backend": "^2.3.1",
     "i18next-http-backend": "^2.4.2",
     "i18next-http-middleware": "^3.5.0",
+    "mysql2": "^3.7.1",
     "pm2": "^2.10.4",
+    "react": "^18.2.0",
     "react-i18next": "^13.5.0",
-    "react-router-dom": "^6.21.2",
-    "rsync": "^0.6.1"
+    "react-router-dom": "^6.21.3",
+    "rsync": "^0.6.1",
+    "typeorm": "^0.3.19"
   }
 }

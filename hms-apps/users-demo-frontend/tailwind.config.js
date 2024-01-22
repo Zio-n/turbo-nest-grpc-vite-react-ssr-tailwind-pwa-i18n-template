@@ -7,6 +7,7 @@ module.exports = {
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
     './@/**/*.{ts,tsx}',
+    '@/**/*.{ts,tsx}',
   ],
   prefix: "",
   theme: {

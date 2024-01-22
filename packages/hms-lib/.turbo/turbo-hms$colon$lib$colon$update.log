@@ -3,9 +3,9 @@
 > copyfiles -u 3 ../../hms-apps/google/**/* ../../hms-apps/proto/**/*.ts src/types && npm install
 
 
-up to date, audited 1858 packages in 2m
+up to date, audited 1934 packages in 34s
 
-360 packages are looking for funding
+365 packages are looking for funding
   run `npm fund` for details
 
 found 0 vulnerabilities

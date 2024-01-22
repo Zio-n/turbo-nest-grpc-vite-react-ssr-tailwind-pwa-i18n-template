@@ -6,13 +6,13 @@ import {
     NavigationMenuList,
     NavigationMenuTrigger,
     navigationMenuTriggerStyle
-} from "@/components/ui/navigation-menu";
+} from "../../@/components/ui/navigation-menu";
 
 import { NAV_COMPONENTS } from "./nav-components";
 import { ListItem } from "./ListItems";
 import { Link } from "react-router-dom";
-import { Icons } from "@/components/ui/icons";
-import { ModeToggle } from "@/components/mode-toggle";
+import { Icons } from "../../@/components/ui/icons";
+import { ModeToggle } from "../../@/components/mode-toggle";
 
 
 const BasicNavigation: React.FC = () => {
@@ -44,7 +44,7 @@ const BasicNavigation: React.FC = () => {
                                 <ListItem
                                     key="List Users"
                                     title="List Users"
-                                    href="/v1/view-users"
+                                    href="/view-users"
                                 >
                                     List of users that are available in the users microservice
                                 </ListItem>
